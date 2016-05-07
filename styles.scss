@@ -1,0 +1,225 @@
+$font-stack: 'Inconsolata', ;
+$dark-grey: #292f33;
+$light-grey: #B1BFC5;
+$mid-grey: #8899a6;
+$red: #E25C2D;
+
+body {
+  background-color: white;
+  font-family: $font-stack;
+  color: $dark-grey;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+#page {
+	max-width: 632px;
+	margin: 0 auto;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.box-tall {
+	padding-top: 4.5rem;
+}
+
+.box-tall > * {
+  vertical-align: middle;
+}
+
+.box-tall > img {
+  margin-right: 1rem;
+}
+
+.box-sec {
+  padding-top: 2rem;
+}
+
+.box-med {
+	padding-top: 1rem;
+}
+
+.box-short {
+	padding-top: .25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 700;
+}
+
+.company {
+  margin-left: .5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.role {
+  margin-top: .5rem;
+}
+
+.desc {
+  color: $mid-grey;
+}
+
+#headline {
+  margin-top: -1rem;
+}
+
+.section > * {
+  vertical-align: middle;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.sub-title {
+  margin-top: .25rem;
+  color: $mid-grey;
+}
+
+.footer {
+  color: $mid-grey;
+  padding-bottom: 3rem;
+}
+
+.egg-link-h1 {
+  color: $dark-grey;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  &:after {
+    content: '';
+    opacity: 0;
+    color: $red;
+    display: block;
+    border-bottom: 2px solid $red;
+    -webkit-transform: translate(0, -4px);
+    -moz-transform: translate(0, -4px);
+    -ms-transform: translate(0, -4px);
+    -o-transform: translate(0, -4px);
+    transform: translate(0, -4px);
+    transition: all 0.2s ease-in;
+    }
+  &:hover:after {
+    opacity: 1;
+    color: $red;
+    -webkit-transform: translate(0, -1px);
+    -moz-transform: translate(0, -1px);
+    -ms-transform: translate(0, -1px);
+    -o-transform: translate(0, -1px);
+    transform: translate(0, -1px);
+    }
+  }
+
+  .egg-link-p {
+    color: $dark-grey;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    &:after {
+      content: '';
+      opacity: 0;
+      color: $red;
+      display: block;
+      border-bottom: 2px solid $red;
+      -webkit-transform: translate(0, -4px);
+      -moz-transform: translate(0, -4px);
+      -ms-transform: translate(0, -4px);
+      -o-transform: translate(0, -4px);
+      transform: translate(0, -4px);
+      transition: all 0.2s ease-in;
+      }
+    &:hover:after {
+      opacity: 1;
+      color: $red;
+      -webkit-transform: translate(0, -1px);
+      -moz-transform: translate(0, -1px);
+      -ms-transform: translate(0, -1px);
+      -o-transform: translate(0, -1px);
+      transform: translate(0, -1px);
+      }
+    }
+
+.link {
+  color: $red;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  &:after {
+    content: '';
+    opacity: 0;
+    display: block;
+    border-bottom: 2px solid $red;
+    -webkit-transform: translate(0, -4px);
+    -moz-transform: translate(0, -4px);
+    -ms-transform: translate(0, -4px);
+    -o-transform: translate(0, -4px);
+    transform: translate(0, -4px);
+    transition: all 0.125s ease-in;
+  }
+  &:hover:after {
+    opacity: 1;
+    -webkit-transform: translate(0, -1px);
+    -moz-transform: translate(0, -1px);
+    -ms-transform: translate(0, -1px);
+    -o-transform: translate(0, -1px);
+    transform: translate(0, -1px);
+  }
+}
+
+.btn {
+  // margin-left: 1rem;
+  font-size: .75rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $red;
+  background: none;
+  border: 2px solid $red;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  border-radius: 5rem;
+  transition: all 0.125s ease-in;
+  &:hover {
+    transition: all 0.125s ease-in;
+    color: white;
+    background: $red;
+  }
+}
+
+// @media screen and (max-width: 600px) {
+// 	.btn {
+//     margin-top: 16px;
+//     margin-left: 0;
+//   }
+//
+//   .desktop {
+//     display: none;
+//   }
+//
+//   .no-btn {
+//     margin-top: -12px;
+//     margin-left: 0;
+//   }
+// }
+//
+// @media screen and (min-width: 601px) {
+//   .mobile {
+//     display: none;
+//   }
+// }
