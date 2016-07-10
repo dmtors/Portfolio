@@ -107,7 +107,7 @@ h2 {
   -ms-transform: translate(0, -4px);
   -o-transform: translate(0, -4px);
   transform: translate(0, -4px);
-  transition: all 0.2s ease-in;
+  transition: all 0.235s ease-in;
 }
 .egg-link-h1:hover:after {
   opacity: 1;
@@ -136,7 +136,7 @@ h2 {
   -ms-transform: translate(0, -4px);
   -o-transform: translate(0, -4px);
   transform: translate(0, -4px);
-  transition: all 0.2s ease-in;
+  transition: all 0.235s ease-in;
 }
 .egg-link-p:hover:after {
   opacity: 1;
@@ -164,7 +164,7 @@ h2 {
   -ms-transform: translate(0, -4px);
   -o-transform: translate(0, -4px);
   transform: translate(0, -4px);
-  transition: all 0.125s ease-in;
+  transition: all 0.235s ease-in;
 }
 .link:hover:after {
   opacity: 1;
@@ -187,10 +187,10 @@ h2 {
   text-decoration: none;
   padding: .5rem 1rem;
   border-radius: 5rem;
-  transition: all 0.125s ease-in;
+  transition: all 0.235s ease-in;
 }
 .btn:hover {
-  transition: all 0.125s ease-in;
+  transition: all 0.235s ease-in;
   color: white;
   background: #E25C2D;
 }
